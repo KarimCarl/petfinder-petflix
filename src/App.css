@@ -25,7 +25,7 @@ textarea {
 
 .main_header {
   padding: 16px;
-  background-color: #fff;
+  background-color: #10002b;
   border-bottom: #6504b5;
   margin-bottom: 30px;
 }
@@ -34,16 +34,17 @@ textarea {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: #6504b5;
+  color: #e0aaff;
   font-size: 49px;
   font-weight: 600;
   font-family: "Alegreya", serif;
+  background-color: #10002b;
 }
 
 .main__wrapper {
   flex-direction: column;
   padding: 16px;
-  background-color: rgb(26, 23, 23);
+  background-color: #4361ee;
   border-bottom: #6504b5;
   margin-bottom: 30px;
 }
@@ -55,8 +56,9 @@ textarea {
   justify-content: center;
 }
 
+/*search form*/
 .search__form__wrapper {
-  background-color: #fff;
+  background-color: #10002b;
   padding: 15px;
   box-shadow: 1.95px 1.95px 2.6px rgb(101 4 181 / 15%);
   border-radius: 10px;
@@ -74,11 +76,11 @@ textarea {
 
 .search__form__wrapper-form-box > label {
   background-color: #fff;
-  color: #121212;
+  color: #23013f;
   padding: 10px;
   box-shadow: 1.95px 1.95px 2.6px rgb(101 4 181 / 15%);
   margin-left: 15px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Alegreya", serif;
 }
 
@@ -89,7 +91,7 @@ textarea {
 }
 
 .search__form__wrapper-form > button {
-  border: 1px solid #9b49df;
+  border: 1px solid #7712ca;
   padding: 10px;
   margin-left: 20px;
   font-size: 25px;
@@ -110,7 +112,7 @@ textarea {
 }
 
 .pets__card-box {
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   box-shadow: 1.95px 1.95px 2.6px rgb(0 0 0 / 15%);
@@ -118,20 +120,20 @@ textarea {
 }
 
 .pets__card-box > img {
-  height: 300px;
+  height: 250px;
   display: block;
-  border-radius: 6px 6px 0 0;
+  border-radius: 15px 50px 30px;
 }
 
 .pets__card-box > span {
-  font-size: 22px;
+  font-size: 25px;
   text-align: center;
   bottom: 0;
-  background-color: #fff;
+  background-color: #10002b;
   padding: 15px;
   border-radius: 0 0 6px 6px;
-  color: #6504b5;
-  font-weight: 600;
+  color: #fdfbff;
+  font-weight: 700;
 }
 
 .footer__wrapper {
@@ -145,8 +147,8 @@ textarea {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: #6504b5;
-  font-size: 29px;
+  color: #210036;
+  font-size: 30px;
   font-weight: 600;
   font-family: "Alegreya", serif;
 }
@@ -156,26 +158,31 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(26, 23, 23);
+  background-color: #10002b;
+  height: 750px;
+  width: 800px;
+  margin: auto;
+
+
 }
 
 .pets__details-wrapper-box {
-  color: #fff;
+  color: #fff
 }
 
 .pets__details-wrapper-image > img {
-  width: 800px;
+  width: 250px;
 }
 
 .pets__details-wrapper-box > button {
-  border: 1px solid #6504b5;
+  border: 1px solid #ffffff;
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 25px;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
   font-family: "Alegreya", serif;
-  color: #fff;
+  color: #e0aaff;
 }
 
 .search__form__wrapper-form > button:hover {
